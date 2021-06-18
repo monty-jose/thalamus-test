@@ -1,9 +1,10 @@
 {
-	"description": "The CodeIgniter framework",
-	"name": "codeigniter/framework",
-	"type": "project",
-	"homepage": "https://codeigniter.com",
+	"description": "Test Thalamus SDK PHP",
+	"name": "thalamus/php-sdk",
+	"type": "library",
+	"homepage": "",
 	"license": "MIT",
+	"version": "1.0"
 	"support": {
 		"forum": "http://forum.codeigniter.com/",
 		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
@@ -19,5 +20,12 @@
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*",
 		"phpunit/phpunit": "4.* || 5.*"
-	}
+	},
+	"repositories": [
+	    {
+	      "type": "composer",
+	      "url": "https://packagist.org"
+	    },
+	    { "packagist": false }
+	  ]
 }
