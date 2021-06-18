@@ -1,6 +1,6 @@
 {
 	"description": "Test Thalamus SDK PHP",
-	"name": "thalamus/php-sdk",
+	"name": "test-monty/php-sdk",
 	"type": "library",
 	"homepage": "",
 	"license": "MIT",
